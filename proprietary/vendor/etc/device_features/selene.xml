@@ -268,6 +268,8 @@
         <item>com.android.midrive</item>
         <item>com.xiaomi.drivemode</item>
         <item>com.miui.smarttravel</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.miui.screenrecorder</item>
     </string-array>
     <!--system data-app path list -->
     <string-array name="system_data_path_list">
@@ -290,6 +292,19 @@
         <item>/system/data-app/MiDrive/MiDrive.apk</item>
         <item>/system/data-app/MiuiDriveMode/MiuiDriveMode.apk</item>
         <item>/system/data-app/SmartTravel/SmartTravel.apk</item>
+        <item>/system/data-app/SoundRecorder/SoundRecorder.apk</item>
+        <item>/system/data-app/MiuiScreenRecorder/MiuiScreenRecorder.apk</item>
+    </string-array>
+    <!--global uninstallable system app package list-->
+    <string-array name="global_uninstallable_system_packagename_list">
+        <item>com.xiaomi.scanner</item>
+        <item>com.miui.weather2</item>
+        <item>com.miui.notes</item>
+        <item>com.miui.compass</item>
+        <item>com.miui.calculator</item>
+        <item>com.xiaomi.midrop</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.miui.screenrecorder</item>
     </string-array>
     <!-- whether camera support AI lens entry -->
     <bool name="camera_support_ai_lens">true</bool>

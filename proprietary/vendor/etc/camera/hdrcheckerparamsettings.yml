@@ -1,6 +1,6 @@
 #if there is any change, please modify the commiter and modification time when submitting
 commiter: 'chenyifei'
-timestamp: '202107071115'
+timestamp: '202108041518'
 product_name: 'K19A'
 platform: 'mtk'
 
@@ -9,6 +9,7 @@ cn:
     trigger_param:
       rear:
         trigger_method: 3 # 0:preview yuv | 1:real drc | 2: hdrbhist+svm | 3: over exposure
+        iso_limit: [0, 0, 0, 0]
         normal:
           HDR-AUTO: # [uw, wide, 2x, tele]
             hdsr_enable: 0
@@ -47,6 +48,7 @@ cn:
           enable: 0
       front:
         trigger_method: 3 # 0:preview yuv | 1:real drc | 2: hdrbhist+svm | 3: over exposure
+        iso_limit: 0
         HDR-AUTO:
           real_drc_gain: 6.0
           luxindex: 360
@@ -109,6 +111,7 @@ cn:
       judge_ae_converge: 1
       judge_ae_luxindex: 5
       judge_ae_frame: 5
+      trigger_iso_limit: 0
       skip_ae_lock: 1
       reorder_ev: 0
       test_idx: 4
@@ -118,6 +121,7 @@ india:
     trigger_param:
       rear:
         trigger_method: 3 # 0:preview yuv | 1:real drc | 2: hdrbhist+svm | 3: over exposure
+        iso_limit: [800, 1600, 800, 800]
         normal:
           HDR-AUTO: # [uw, wide, 2x, tele]
             hdsr_enable: 0
@@ -156,6 +160,7 @@ india:
           enable: 0
       front:
         trigger_method: 3 # 0:preview yuv | 1:real drc | 2: hdrbhist+svm | 3: over exposure
+        iso_limit: 1200
         HDR-AUTO:
           real_drc_gain: 6.0
           luxindex: 360
@@ -219,6 +224,7 @@ india:
       judge_ae_converge: 1
       judge_ae_luxindex: 5
       judge_ae_frame: 5
+      trigger_iso_limit: 1
       skip_ae_lock: 1
       reorder_ev: 0
       test_idx: 4
@@ -228,6 +234,7 @@ global:
     trigger_param:
       rear:
         trigger_method: 3 # 0:preview yuv | 1:real drc | 2: hdrbhist+svm | 3: over exposure
+        iso_limit: [0, 0, 0, 0]
         normal:
           HDR-AUTO: # [uw, wide, 2x, tele]
             hdsr_enable: 0
@@ -266,6 +273,7 @@ global:
           enable: 0
       front:
         trigger_method: 3 # 0:preview yuv | 1:real drc | 2: hdrbhist+svm | 3: over exposure
+        iso_limit: 0
         HDR-AUTO:
           real_drc_gain: 6.0
           luxindex: 360
@@ -328,6 +336,7 @@ global:
       judge_ae_converge: 1
       judge_ae_luxindex: 5
       judge_ae_frame: 5
+      trigger_iso_limit: 0
       skip_ae_lock: 1
       reorder_ev: 0
       test_idx: 4

@@ -227,6 +227,18 @@
     <EccEntry Ecc="186110" Category="0" Condition="1" Plmn="440 89"/>
     <EccEntry Ecc="186118" Category="0" Condition="1" Plmn="440 89"/>
     <EccEntry Ecc="186119" Category="0" Condition="1" Plmn="440 89"/>
+    <!-- K19A code for HQ-152594 by yefeng at 20210826 start -->
+    <EccEntry Ecc="101" Category="0" Condition="2" Plmn="401 FFF"/>
+    <EccEntry Ecc="102" Category="0" Condition="2" Plmn="401 FFF"/>
+    <EccEntry Ecc="103" Category="0" Condition="2" Plmn="401 FFF"/>
+    <EccEntry Ecc="104" Category="0" Condition="2" Plmn="401 FFF"/>
+    <!-- K19A code for HQ-152594 by yefeng at 20210826 end -->
+    <!-- K19A code for HQ-157176 by yefeng at 20211008 start -->
+    <EccEntry Ecc="101" Category="0" Condition="2" Plmn="257 FFF"/>
+    <EccEntry Ecc="102" Category="0" Condition="2" Plmn="257 FFF"/>
+    <EccEntry Ecc="103" Category="0" Condition="2" Plmn="257 FFF"/>
+    <EccEntry Ecc="104" Category="0" Condition="2" Plmn="257 FFF"/>
+    <!-- K19A code for HQ-157176 by yefeng at 20211008 end -->
 
     <!-- Add for Korea operator -->
     <EccEntry Ecc="111" Category="6" Condition="1" Plmn="450 FFF"/>
@@ -289,6 +301,9 @@
     <!-- Add for Taiwan CHT operator (466 92) -->
     <EccEntry Ecc="110" Category="0" Condition="2" Plmn="466 92"/>
     <EccEntry Ecc="119" Category="0" Condition="2" Plmn="466 92"/>
+    <!-- K19A code for HQ-149861 by yefeng at 20210825 start -->
+    <EccEntry Ecc="118" Category="0" Condition="2" Plmn="466 92"/>
+    <!-- K19A code for HQ-149861 by yefeng at 20210825 end -->
 
     <!-- Add for Taiwan TWM operator (466 93/97/99) -->
     <EccEntry Ecc="110" Category="1" Condition="1" Plmn="466 93"/>
@@ -374,7 +389,9 @@
     <EccEntry Ecc="199" Category="0" Condition="2" Plmn="414 FFF"/>
 
     <EccEntry Ecc="117" Category="0" Condition="2" Plmn="515 FFF"/>
-    <EccEntry Ecc="112" Category="0" Condition="2" Plmn="515 FFF"/>
+    <!-- K19A code for HQ-154644 by yefeng at 20210915 start -->
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="515 FFF"/>
+    <!-- K19A code for HQ-154644 by yefeng at 20210915 end -->
     <!-- K19A code for HQ-147740 by yefeng at 20210724 start -->
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="515 FFF"/>
     <!-- K19A code for HQ-147740 by yefeng at 20210724 end -->
@@ -385,6 +402,10 @@
     <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="2" Plmn="510 FFF"/>
     <EccEntry Ecc="113" Category="0" Condition="2" Plmn="510 FFF"/>
+    <!-- K19A code for HQ-150180 by yefeng at 20210813 start -->
+    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="510 FFF"/>
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn="510 FFF"/>
+    <!-- K19A code for HQ-150180 by yefeng at 20210813 end -->
 
     <EccEntry Ecc="112" Category="0" Condition="2" Plmn="452 FFF"/>
     <EccEntry Ecc="113" Category="0" Condition="2" Plmn="452 FFF"/>
@@ -459,6 +480,10 @@
 
     <EccEntry Ecc="112" Category="0" Condition="0" Plmn="231 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="0" Plmn="231 FFF"/>
+
+    <!-- K19A code for HQ-153172 by yefeng at 20210902 start -->
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn="242 FFF"/>
+    <!-- K19A code for HQ-153172 by yefeng at 20210902 end -->
 
     <EccEntry Ecc="190" Category="0" Condition="1" Plmn="724 FFF"/>
     <!-- K19A code for HQ-121237 by yefeng at 20210413 start -->
@@ -686,6 +711,11 @@
     <EccEntry Ecc="103" Category="0" Condition="2" Plmn="250 20"/>
     <EccEntry Ecc="104" Category="0" Condition="2" Plmn="250 20"/>
     <!-- K19A code for HQ-131844 by liumingyue at 202104139 end -->
+    <!-- K19A code for HQ-148387 by yefeng at 20210727 start -->
+    <EccEntry Ecc="150" Category="0" Condition="1" Plmn="230 FFF"/>
+    <EccEntry Ecc="155" Category="0" Condition="1" Plmn="230 FFF"/>
+    <EccEntry Ecc="158" Category="0" Condition="1" Plmn="230 FFF"/>
+    <!-- K19A code for HQ-148387 by yefeng at 20210727 end -->
     
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="712 04"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="712 04"/>
@@ -765,10 +795,6 @@
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="234 33"/>
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="234 33"/>
     
-    <EccEntry Ecc="117" Category="0" Condition="1" Plmn="456 11"/>
-    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="456 11"/>
-    <EccEntry Ecc="119" Category="0" Condition="1" Plmn="456 11"/>
-    
     <EccEntry Ecc="100" Category="0" Condition="2" Plmn="202 05"/>
     <EccEntry Ecc="166" Category="0" Condition="2" Plmn="202 05"/>
     <EccEntry Ecc="199" Category="0" Condition="2" Plmn="202 05"/>
@@ -788,7 +814,6 @@
     <EccEntry Ecc="191" Category="0" Condition="2" Plmn="520 47"/>
     <!-- K19A code for HQ-146023 by yefeng at 20210719 start -->
     <EccEntry Ecc="999" Category="0" Condition="2" Plmn="525 FFF"/>
-    <EccEntry Ecc="995" Category="0" Condition="2" Plmn="525 FFF"/>
     <!-- K19A code for HQ-146023 by yefeng at 20210719 end -->
     <!-- K19A code for HQ-144445 by yefeng at 20210720 start -->
     <EccEntry Ecc="101" Category="0" Condition="2" Plmn="434 FFF"/>
@@ -802,6 +827,27 @@
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="434 FFF"/>
     <!-- K19A code for HQ-144445 by yefeng at 20210720 end -->
 
-    
+
+    <!-- Add for UA operators -->
+    <EccEntry Ecc="101" Category="0" Condition="2" Plmn="255 06"/>
+    <EccEntry Ecc="102" Category="0" Condition="2" Plmn="255 06"/>
+    <EccEntry Ecc="103" Category="0" Condition="2" Plmn="255 06"/>
+    <EccEntry Ecc="101" Category="0" Condition="2" Plmn="255 01"/>
+    <EccEntry Ecc="102" Category="0" Condition="2" Plmn="255 01"/>
+    <EccEntry Ecc="103" Category="0" Condition="2" Plmn="255 01"/>
+    <EccEntry Ecc="101" Category="0" Condition="2" Plmn="255 03"/>
+    <EccEntry Ecc="102" Category="0" Condition="2" Plmn="255 03"/>
+    <EccEntry Ecc="103" Category="0" Condition="2" Plmn="255 03"/>
+
+    <!-- Add for Cambodia operator -->
+    <EccEntry Ecc="117" Category="0" Condition="2" Plmn = "456 FFF" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn = "456 FFF" />
+    <!-- Add for BR operator -->
+    <EccEntry Ecc="190" Category="0" Condition="1" Plmn = "724 FFF" />
+    <!-- Add for Laos operator -->
+    <EccEntry Ecc="1191" Category="0" Condition="2" Plmn = "457 FFF" />
+    <EccEntry Ecc="1190" Category="0" Condition="2" Plmn = "457 FFF" />
+    <EccEntry Ecc="1195" Category="0" Condition="2" Plmn = "457 FFF" />
+    <EccEntry Ecc="1199" Category="0" Condition="2" Plmn = "457 FFF" />
 
 </EccTable>

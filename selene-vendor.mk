@@ -31,12 +31,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/selene/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/selene/proprietary/vendor/bin/FFU_FW_HW_M.1.B.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/FFU_FW_HW_M.1.B.BIN \
+    vendor/xiaomi/selene/proprietary/vendor/bin/FFU_M5_11.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/FFU_M5_11.BIN \
     vendor/xiaomi/selene/proprietary/vendor/bin/H9HP16AECMMDAR-KMM_P08.bin:$(TARGET_COPY_OUT_VENDOR)/bin/H9HP16AECMMDAR-KMM_P08.bin \
     vendor/xiaomi/selene/proprietary/vendor/bin/KM3H6001CA-B515_P08.bin:$(TARGET_COPY_OUT_VENDOR)/bin/KM3H6001CA-B515_P08.bin \
     vendor/xiaomi/selene/proprietary/vendor/bin/KM3V6001CM-B705_P03.bin:$(TARGET_COPY_OUT_VENDOR)/bin/KM3V6001CM-B705_P03.bin \
     vendor/xiaomi/selene/proprietary/vendor/bin/KMDD60018M-B320_P09.bin:$(TARGET_COPY_OUT_VENDOR)/bin/KMDD60018M-B320_P09.bin \
     vendor/xiaomi/selene/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
-    vendor/xiaomi/selene/proprietary/vendor/bin/Turquoise_FW_Version_0x0203.BIN:$(TARGET_COPY_OUT_VENDOR)/bin/Turquoise_FW_Version_0x0203.BIN \
     vendor/xiaomi/selene/proprietary/vendor/bin/Vincent_V4_MLC_64GB_Bridge_P08.bin:$(TARGET_COPY_OUT_VENDOR)/bin/Vincent_V4_MLC_64GB_Bridge_P08.bin \
     vendor/xiaomi/selene/proprietary/vendor/bin/Vincent_V4_MLC_64GB_P02_Gen.bin:$(TARGET_COPY_OUT_VENDOR)/bin/Vincent_V4_MLC_64GB_P02_Gen.bin \
     vendor/xiaomi/selene/proprietary/vendor/bin/Vincent_V4_TLC_128GB_Bridge_P03.bin:$(TARGET_COPY_OUT_VENDOR)/bin/Vincent_V4_TLC_128GB_Bridge_P03.bin \
@@ -163,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
     vendor/xiaomi/selene/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/xiaomi/selene/proprietary/vendor/data/misc/ProjectConfig.mk:$(TARGET_COPY_OUT_VENDOR)/data/misc/ProjectConfig.mk \
-    vendor/xiaomi/selene/proprietary/vendor/data/misc/pdc.txt:$(TARGET_COPY_OUT_VENDOR)/data/misc/pdc.txt \
     vendor/xiaomi/selene/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
     vendor/xiaomi/selene/proprietary/vendor/etc/.tp/.thermal_policy_00:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_00 \
     vendor/xiaomi/selene/proprietary/vendor/etc/.tp/.thermal_policy_03:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_03 \
@@ -381,6 +380,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/etc/camera/Roboto-Thin.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Roboto-Thin.ttf \
     vendor/xiaomi/selene/proprietary/vendor/etc/camera/Roboto_Medium.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Roboto_Medium.ttf \
     vendor/xiaomi/selene/proprietary/vendor/etc/camera/com.xiaomi.dcal.wd.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wd.golden \
+    vendor/xiaomi/selene/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.golden \
     vendor/xiaomi/selene/proprietary/vendor/etc/camera/fonts.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fonts.xml \
     vendor/xiaomi/selene/proprietary/vendor/etc/camera/golden_rear_dc_cal_wd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_rear_dc_cal_wd.bin \
     vendor/xiaomi/selene/proprietary/vendor/etc/camera/hdrcheckerparamsettings.yml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdrcheckerparamsettings.yml \
@@ -896,10 +896,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.hwintegration.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcheckpid.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib/libcrypto-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcrypto-mdapp.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib/libcurl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl-md.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl_xcap_md.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
@@ -977,6 +980,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib/libssl-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl-mdapp.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstorage_otp.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
@@ -1112,10 +1116,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_aac_ultra_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_aac_ultra_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_aac_ultra_mipi_raw_cn_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_aac_ultra_mipi_raw_cn_IdxMgr.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_aac_ultra_mipi_raw_cn_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_aac_ultra_mipi_raw_cn_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_aac_ultra_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_aac_ultra_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_aac_ultra_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_aac_ultra_mipi_raw_india_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_aac_ultra_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_aac_ultra_mipi_raw_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_sunny_ultra_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_sunny_ultra_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_sunny_ultra_mipi_raw_cn_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_sunny_ultra_mipi_raw_cn_IdxMgr.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_sunny_ultra_mipi_raw_cn_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_sunny_ultra_mipi_raw_cn_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_sunny_ultra_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_sunny_ultra_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_sunny_ultra_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_sunny_ultra_mipi_raw_india_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/imx355_sunny_ultra_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_sunny_ultra_mipi_raw_tuning.so \
@@ -1244,6 +1252,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcharon-ss.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcheckpid.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libcrypto-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto-mdapp.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libcurl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl-md.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl_xcap_md.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
@@ -1470,6 +1480,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/ov50c40_ofilm_main_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50c40_ofilm_main_mipi_raw_india_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/ov50c40_ofilm_main_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50c40_ofilm_main_mipi_raw_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/ov50c40_qtech_main_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50c40_qtech_main_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/ov50c40_qtech_main_mipi_raw_cn_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50c40_qtech_main_mipi_raw_cn_IdxMgr.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/ov50c40_qtech_main_mipi_raw_cn_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50c40_qtech_main_mipi_raw_cn_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/ov50c40_qtech_main_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50c40_qtech_main_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/ov50c40_qtech_main_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50c40_qtech_main_mipi_raw_india_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/ov50c40_qtech_main_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50c40_qtech_main_mipi_raw_tuning.so \
@@ -1482,6 +1494,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/ov8856_ofilm_front_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov8856_ofilm_front_mipi_raw_india_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/ov8856_ofilm_front_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov8856_ofilm_front_mipi_raw_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/s5kjn1_ofilm_main_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kjn1_ofilm_main_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/s5kjn1_ofilm_main_mipi_raw_cn_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kjn1_ofilm_main_mipi_raw_cn_IdxMgr.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/s5kjn1_ofilm_main_mipi_raw_cn_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kjn1_ofilm_main_mipi_raw_cn_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/s5kjn1_ofilm_main_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kjn1_ofilm_main_mipi_raw_india_IdxMgr.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/s5kjn1_ofilm_main_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kjn1_ofilm_main_mipi_raw_india_tuning.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/s5kjn1_ofilm_main_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kjn1_ofilm_main_mipi_raw_tuning.so \

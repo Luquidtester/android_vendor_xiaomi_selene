@@ -1,6 +1,6 @@
 <TetrasSRParams>
     
-    <SRVersion>SR_X_MTK_V2.0.1.3020_M1.9_k19a_2021-07-23 18:15:28</SRVersion>
+    <SRVersion>SR_X_MTK_V2.0.1.3500_M1.9_k19a_2021-08-09 15:09:45</SRVersion>
 
     <SRParams>
         <ParamGroup>
@@ -958,9 +958,9 @@
                          <Mutable_LevelStrength3>0.30</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.20</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.10</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>2.10</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>1.10</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>0.70</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength1>8.10</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>4.10</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>2.70</Mutable_MotionLevelStrength3>
                          <Mutable_MotionLevelStrength4>0.20</Mutable_MotionLevelStrength4>
                          <Mutable_MotionLevelStrength5>0.10</Mutable_MotionLevelStrength5>
                     </UVDnoise>
@@ -1018,9 +1018,9 @@
                          <Mutable_LevelStrength3>0.50</Mutable_LevelStrength3>
                          <Mutable_LevelStrength4>0.30</Mutable_LevelStrength4>
                          <Mutable_LevelStrength5>0.10</Mutable_LevelStrength5>
-                         <Mutable_MotionLevelStrength1>6.10</Mutable_MotionLevelStrength1>
-                         <Mutable_MotionLevelStrength2>1.10</Mutable_MotionLevelStrength2>
-                         <Mutable_MotionLevelStrength3>0.70</Mutable_MotionLevelStrength3>
+                         <Mutable_MotionLevelStrength1>8.10</Mutable_MotionLevelStrength1>
+                         <Mutable_MotionLevelStrength2>4.10</Mutable_MotionLevelStrength2>
+                         <Mutable_MotionLevelStrength3>2.70</Mutable_MotionLevelStrength3>
                          <Mutable_MotionLevelStrength4>0.40</Mutable_MotionLevelStrength4>
                          <Mutable_MotionLevelStrength5>0.10</Mutable_MotionLevelStrength5>
                     </UVDnoise>

@@ -102,10 +102,10 @@
       <Param name="ul_gain" value="25"/>
     </ParamUnit>
     <ParamUnit param_id="11">
-      <Param name="ul_gain" value="30"/>
+      <Param name="ul_gain" value="32"/>
     </ParamUnit>
     <ParamUnit param_id="12">
-      <Param name="ul_gain" value="30"/>
+      <Param name="ul_gain" value="32"/>
     </ParamUnit>
     <ParamUnit param_id="13">
       <Param name="ul_gain" value="34"/>
