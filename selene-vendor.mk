@@ -854,7 +854,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libMtkOmxVdecEx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVdecEx.so \
-    vendor/xiaomi/selene/proprietary/vendor/lib/libMtkOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVenc.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
