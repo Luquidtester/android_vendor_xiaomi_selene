@@ -800,9 +800,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_e1_hdr.bin \
     vendor/xiaomi/selene/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/xiaomi/selene/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
-    vendor/redmi/begonia/proprietary/vendor/firmware/wifi_sta2.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_sta2.cfg \
-    vendor/redmi/begonia/proprietary/vendor/firmware/wifi_sta5.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_sta5.cfg \
-    vendor/redmi/begonia/proprietary/vendor/firmware/wifi_sta25.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_sta25.cfg \
+    vendor/xiaomi/selene/proprietary/vendor/firmware/wifi_sta2.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_sta2.cfg \
+    vendor/xiaomi/selene/proprietary/vendor/firmware/wifi_sta5.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_sta5.cfg \
+    vendor/xiaomi/selene/proprietary/vendor/firmware/wifi_sta25.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_sta25.cfg \
     vendor/xiaomi/selene/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
